@@ -67,3 +67,22 @@ body{
 .cont #second::before{
     content: 'Second';
 }
+
+@media (max-width : 415px ){
+
+    .cont div{
+        margin: 20px;
+        font-size: 2em;
+        position: relative;
+        width: 100%;
+       
+    
+    }
+
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
