@@ -96,13 +96,19 @@ body{
         color:  rgb(199, 14, 162);
         font-weight: 1000;
     }
+    .cont{
+        color: rgba(10, 12, 10, 0.811);
+    }
+    .header{
+        color: rgba(10, 12, 10, 0.811);
+    }
 
     .text{
         color: rgb(0, 0, 0);
         position: absolute;
-        bottom: 10px;
+        bottom: 50px;
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 00;
     }
 
 
