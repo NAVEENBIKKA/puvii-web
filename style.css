@@ -16,17 +16,18 @@ body{
 
 .head{
     color:  rgb(199, 14, 162);
+    font-weight: 1000;
 }
 
 .header{
-    color: rgb(199, 14, 162);
+    color: rgba(10, 12, 10, 0.811);
     font-size: 5em;
 
 }
 .cont{
-    color: rgb(199, 14, 162);
+    color: rgba(10, 12, 10, 0.811);
     display: flex;
-    margin: 30px;
+    margin: -12px;
     /* background-color: rgba(114, 76, 149, 0.573); */
     height: 300px;
     position: relative;
@@ -39,9 +40,16 @@ body{
     margin: 30px;
     font-size: 4em;
     position: relative;
-    width: 100px;
+    width: 100%;
 
 
+}
+.text{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 10px;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .cont div::before {
@@ -68,11 +76,11 @@ body{
     content: 'Second';
 }
 
-@media (max-width : 415px ){
+ @media (max-width : 415px ){
 
     .cont div{
         margin: 20px;
-        font-size: 2em;
+        font-size: 3em;
         position: relative;
         width: 100%;
        
@@ -82,6 +90,19 @@ body{
     body{
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .head{
+        color:  rgb(199, 14, 162);
+        font-weight: 1000;
+    }
+
+    .text{
+        color: rgb(0, 0, 0);
+        position: absolute;
+        bottom: 10px;
+        font-size: 2rem;
+        font-weight: 600;
     }
 
 
